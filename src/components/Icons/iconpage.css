@@ -1,0 +1,54 @@
+.social-icons {
+  position: fixed;
+  top: 45%;
+  left: 220px;
+  height: 110px;
+  width: 40px;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -80px;
+  margin-left: 1350px;
+  gap: 30px;
+}
+
+.icon-card {
+  width: 40px;
+  height: 40px;
+}
+
+.icon-card a {
+  color: #1f1f1f;
+  font-size: 33px;
+  transition: color 0.3s;
+}
+
+@media (min-width: 1024px) {
+  .social-icons {
+    right: 30px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .social-icons {
+    right: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .social-icons {
+    right: 10px;
+    top: 80%;
+    gap: 10px;
+  }
+
+  .icon-card {
+    width: 35px;
+    height: 35px;
+  }
+
+  .icon-card a {
+    font-size: 28px;
+  }
+}
